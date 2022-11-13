@@ -11,7 +11,9 @@
 }
 
 .egyszer {
-    animation: fejlec 3.5s ease-out;
+    animation-name: fejlec;             /*  fém gombok eltüntetése 10 másodpercig */
+    animation-duration: 10s;
+    animation-iteration-count: 1;
 }
 .c {
     color: blue;
