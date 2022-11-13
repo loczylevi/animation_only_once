@@ -1,0 +1,23 @@
+@keyframes fejlec {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.egyszer {
+    animation: fejlec 3.5s ease-out;
+}
+.c {
+    color: blue;
+}
+
+.d {
+    font-weight: bold;
+    font-size: 40px;
+}
